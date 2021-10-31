@@ -5,6 +5,7 @@ The project started by creating a workbook to analyze and format volume and retr
 ## Results: 
 By selecting a pre-configured form-contol button, the analysis provided a formatted table showing Total Daily Volumes and Return percentages of the twelve selected stocks for the selected year.
 ![Workbook image](https://github.com/jmueller187/stock-analysis/blob/main/Resources/AllStocksAnalysisImage.png)
+
 After supplying these results, we were also asked to determine if the runtime of the code could be reduced by refactoring the code in order to evaluate a larger sample of stocks.
 The process started by evaluating the data for each of the twelve stocks over an entire year and determining run times of the initial code to set our benchmarks. Those results are as follows:
 
