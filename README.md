@@ -7,11 +7,15 @@ By selecting a pre-configured form-contol button, the analysis provided a format
 ![Workbook image](https://github.com/jmueller187/stock-analysis/blob/main/Resources/AllStocksAnalysisImage.png)
 After supplying these results, we were also asked to determine if the runtime of the code could be reduced by refactoring the code in order to evaluate a larger sample of stocks.
 The process started by evaluating the data for each of the twelve stocks over an entire year and determining run times of the initial code to set our benchmarks. Those results are as follows:
+---
 ![Initial runtime for 2017](https://github.com/jmueller187/stock-analysis/blob/main/Resources/InitialTimeAnalysis2017.png)
 ![Initial runtime for 2018](https://github.com/jmueller187/stock-analysis/blob/main/Resources/InitialTimeAnalysis2018.png)
+---
 We then moved on to refactoring the code to evaluate the data for each year only once and capture data for each stock in order to update the summary table. The results of the refactored code are seen below:
+---
 ![Refactored runtime for 2017](https://github.com/jmueller187/stock-analysis/blob/main/Resources/RefactoredTimeAnalysis2017.png)
-1[Refactored runtime for 2018](https://github.com/jmueller187/stock-analysis/blob/main/Resources/RefactoredTimeAnalysis2018.png)
+![Refactored runtime for 2018](https://github.com/jmueller187/stock-analysis/blob/main/Resources/RefactoredTimeAnalysis2018.png)
+---
 These results show a 79% runtime reduction for 2017 data and 81% runtime reduction for 2018 data with the refactored code, while maintaining the functionality and output of the initial code.
 NOTE: The Percentage of runtine reduction was calculated by subtracting the refactored runtimes from the intial runtimes to obtain the overall decrease. Then each overall decrease was divided by the initial runtimes and muliplyed by 100 to obtain the final runtime reduction precentages.
 ## Amaysis Summary:
