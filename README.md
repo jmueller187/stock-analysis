@@ -1,5 +1,5 @@
 # stock-analysis
-Bootcamp Module 2
+Analyzing financial data with Visual Basic for Applications (VBA) & Excel
 ## Overview of Project: 
 The project started by creating a workbook to analyze and format volume and retrun data for a select groups of twelve stocks over a given year. The purpose of this analysis was to refactor the original code for use with an expanded data set. We wanted to provide updated code that, when moving from twelve stocks to potentially thousands of stocks, would equal or outperform the original code in regards to analysis run time. We waned to see if the refactored code would prevent increased execution times and potential errors from running too long.
 ## Results: 
